@@ -12,7 +12,7 @@ Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko
 
 Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega ona zniszczeniu, czy tez niewyjasnione okolicznosci (czyt. czynnik zewnetrzny) sprawiaja, ze zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, ktory przypomnial sobie o Chio Taccos.
 
-![Chio Taccos]({{ '/assets/images/chio-taccos.jpg' | relative_url }})
+<img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; margin: 0 auto; width: 200px; height: auto;" />
 
 Im dalej w las, tym dalej w lesie. Annihilate Prime Factor autorstwa Kriegsmaschine. Upadek w pelnej krasie... nie. Nie ten utwor. 
 
