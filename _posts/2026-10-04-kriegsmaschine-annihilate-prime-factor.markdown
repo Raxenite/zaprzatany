@@ -8,7 +8,7 @@ A mial ktos akcje np idzie 3 typow i na ciebie?
 
 Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko sie dalo. System niefalsyfikowalny, nie zapraszam do dyskusji.
 
-# Kriegsmaschine - Annihilate Prime Factor
+# Case Study
 
 <iframe src="https://www.youtube.com/embed/6IVI-KLg7LQ?si=Fv8dwg-MuDYWufhZ" title="YouTube video player" frameborder="0" allowfullscreen style="width:100%;max-width:560px;aspect-ratio:16/9;"></iframe>
 
@@ -16,7 +16,7 @@ Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega 
 
 <img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; width: 200px; height: auto;" />
 
-Im dalej w las, tym dalej w lesie. _Annihilate Prime Factor_ autorstwa _Kriegsmaschine_. Upadek w pelnej krasie... nie. Nie ten utwor. 
+Im dalej w las, tym dalej w lesie. Upadek w pelnej krasie... nie. Nie ten utwor. 
 
 > Towards the tainted omega-pleroma, so perfect  
 > in its warped beauty, it comes to burn the earth  
