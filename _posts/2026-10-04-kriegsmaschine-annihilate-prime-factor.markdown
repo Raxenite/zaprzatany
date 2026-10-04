@@ -10,49 +10,49 @@ Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko
 
 # Kriegsmaschine - Annihilate Prime Factor
 
-<div style="display:flex;justify-content:center;"><iframe src="https://www.youtube.com/embed/6IVI-KLg7LQ?si=Fv8dwg-MuDYWufhZ" title="YouTube video player" frameborder="0" allowfullscreen style="width:100%;max-width:560px;aspect-ratio:16/9;"></iframe></div>
+<iframe src="https://www.youtube.com/embed/6IVI-KLg7LQ?si=Fv8dwg-MuDYWufhZ" title="YouTube video player" frameborder="0" allowfullscreen style="width:100%;max-width:560px;aspect-ratio:16/9;"></iframe>
 
 Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega ona zniszczeniu, czy tez niewyjasnione okolicznosci (czyt. czynnik zewnetrzny) sprawiaja, ze zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, ktory przypomnial sobie o Chio Taccos.
 
-<img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; margin: 0 auto; width: 200px; height: auto;" />
+<img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; width: 200px; height: auto;" />
 
-Im dalej w las, tym dalej w lesie. Annihilate Prime Factor autorstwa Kriegsmaschine. Upadek w pelnej krasie... nie. Nie ten utwor. 
+Im dalej w las, tym dalej w lesie. _Annihilate Prime Factor_ autorstwa _Kriegsmaschine_. Upadek w pelnej krasie... nie. Nie ten utwor. 
 
-> Towards the tainted omega-pleroma, so perfect
-> in its warped beauty, it comes to burn the earth
-> and our hearts shall welcome the flames
-> with purest of joys.
+> Towards the tainted omega-pleroma, so perfect  
+> in its warped beauty, it comes to burn the earth  
+> and our hearts shall welcome the flames  
+> with purest of joys.  
 
 Normalne barbecue. 
 
-> Haunted by the voices of living breathing cosmos,
-> Isis! Cunt of pneuma, whence all floweth,
-> exceeding the capacity of pure abstraction,
-> digitized Logos, blistered into matter.
+> Haunted by the voices of living breathing cosmos,  
+> Isis! Cunt of pneuma, whence all floweth,  
+> exceeding the capacity of pure abstraction,  
+> digitized Logos, blistered into matter.  
 
 Kielbaski spiekly sie ciutke zbyt mocno. 
 
-> Annihilate prime factor.
-> Thrice deny divine restraint. Reject all things finite and infinite.
-> Annihilate prime factor.
+> Annihilate prime factor.  
+> Thrice deny divine restraint. Reject all things finite and infinite.  
+> Annihilate prime factor.  
 
 Ani kielba, ani swinia. 
 
-> Let the tainted foundations of reality crumble
-> and let us hope nothing comes afterwards,
-> so the gravest of mistakes we all blindly wander in
-> will finally come to an end.
+> Let the tainted foundations of reality crumble  
+> and let us hope nothing comes afterwards,  
+> so the gravest of mistakes we all blindly wander in  
+> will finally come to an end.  
 
 Impreza chujowa, ale zapadla w pamiec.
 
-> Let there come a glorious error in the patterns of the world.
+> Let there come a glorious error in the patterns of the world.  
 
 Dajmy na to, karkowka wieprzowa, bez wieprzowiny.
 
-> Let these words be as sand in the cogwheels of reason,
-> as a malign disturbance in the sustainment of universe,
-> and let each quark of this degenerated microcosm
-> stand as a citadel of cold and deliberate hatred.
+> Let these words be as sand in the cogwheels of reason,  
+> as a malign disturbance in the sustainment of universe,  
+> and let each quark of this degenerated microcosm  
+> stand as a citadel of cold and deliberate hatred.  
 
 Pierdole, drugi raz nie dam sie namowic na tak chujowe party.
 
