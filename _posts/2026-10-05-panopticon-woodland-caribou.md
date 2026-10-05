@@ -82,7 +82,7 @@ KURWA, ZELAZKO NA GAZIE
 
 > I’ll remain on this land and I await my death.  
 
-<img src="{{ site.baseurl }}/assets/images/where-mine.jpeg" style="display: block; width: 200px; height: auto;" />
+<img src="{{ site.baseurl }}/assets/images/where-mine.jpeg" style="display: block; width: 300px; height: auto;" />
 
 ## Post-mortem
 
@@ -90,5 +90,5 @@ Do wymiany zarowki trzeba zarowki i psychologa. Facts.
 
 Fuck knows na co komu wymieniac przepalona zarowke przed rejsem pieknym parostatkiem; wykluczyc nie mozna zwiazku z z niedostatkiem i Tadkiem-niejadkiem, amatorem pchania sobie w gebe rzeczy, co nie powinien.
 
-TADZIK
+TADZIK  
 huju
