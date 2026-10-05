@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-na chuj zagladasz, klocki Lego lep
+huj sie lampisz, klocki lego lep
