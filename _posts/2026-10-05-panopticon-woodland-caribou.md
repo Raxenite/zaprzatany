@@ -88,7 +88,7 @@ KURWA, ZELAZKO NA GAZIE
 
 Do wymiany zarowki trzeba zarowki i psychologa. Facts.
 
-Fuck knows na co komu wymieniac przepalona zarowke przed rejsem pieknym parostatkiem; wykluczyc nie mozna zwiazku z z niedostatkiem i Tadkiem-niejadkiem, amatorem pchania sobie w gebe rzeczy, co nie powinien.
+Fuck knows na co komu wymieniac przepalona zarowke przed rejsem pieknym parostatkiem; wykluczyc nie mozna zwiazku z niedostatkiem i Tadkiem-niejadkiem, amatorem pchania sobie w gebe rzeczy, co nie powinien.
 
 TADZIK  
 huju
