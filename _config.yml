@@ -23,6 +23,14 @@ description: ""
 baseurl: "/zaprzatany" # the subpath of your site, e.g. /blog
 url: "https://raxenite.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Raxenite
+author: "Laura Nara"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author:
+        - "Laura Nara"
 
 # Build settings
 theme: minima
