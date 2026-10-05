@@ -1,3 +1,3 @@
 # Zaprzątany
 
-W kosmosie nikt nie uslyszy twojego cichacza zabijacza.
+W kosmosie nikt nie usłyszy twojego cichacza zabijacza.
