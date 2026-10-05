@@ -12,7 +12,7 @@ Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko
 
 <iframe src="https://www.youtube.com/embed/6IVI-KLg7LQ?si=Fv8dwg-MuDYWufhZ" title="YouTube video player" frameborder="0" allowfullscreen style="width:100%;max-width:560px;aspect-ratio:16/9;"></iframe>
 
-Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega ona zniszczeniu, czy tez niewyjasnione okolicznosci (czyt. czynnik zewnetrzny) sprawiaja, ze zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, ktory przypomnial sobie o Chio Taccos.
+Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega ona zniszczeniu, czy tez niewyjasnione okolicznosci (czyt. _czynnik zewnetrzny_) sprawiaja, ze zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, ktory przypomnial sobie o _Chio Taccos_.
 
 <img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; width: 200px; height: auto;" />
 
@@ -23,7 +23,7 @@ Im dalej w las, tym dalej w lesie. Upadek w pelnej krasie... nie. Nie ten utwor.
 > and our hearts shall welcome the flames  
 > with purest of joys.  
 
-Normalne barbecue. 
+Normalne barbecue
 
 > Haunted by the voices of living breathing cosmos,  
 > Isis! Cunt of pneuma, whence all floweth,  
@@ -36,7 +36,7 @@ Kielbaski spiekly sie ciutke zbyt mocno.
 > Thrice deny divine restraint. Reject all things finite and infinite.  
 > Annihilate prime factor.  
 
-Ani kielba, ani swinia. 
+Ani kielba, ani swinia
 
 > Let the tainted foundations of reality crumble  
 > and let us hope nothing comes afterwards,  
