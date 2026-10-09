@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Zaprzątany
-description: "W kosmosie nikt nie usłyszy twojego cichacza zabijacza"
+description: "w kosmosie nikt nie usłyszy twojego cichacza zabijacza"
 baseurl: "/zaprzatany" # the subpath of your site, e.g. /blog
 url: "https://raxenite.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
@@ -52,7 +52,7 @@ exclude:
   - THIRD_PARTY_LICENSES.md
   - LICENSE
   - README.md
-  
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

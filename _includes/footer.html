@@ -1,13 +1,13 @@
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
 
 <footer class="site-footer h-card">
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p>© 2026 Laura Nara · Code: MIT</p>
-      </div>
-      <div class="footer-col">
         <p>{{ site.description | escape }}</p>
+
+        <div>© {{ site.time | date: "%Y" }} {{ site.author.name | escape }}, chyba że nie</div>
       </div>
     </div>
 
