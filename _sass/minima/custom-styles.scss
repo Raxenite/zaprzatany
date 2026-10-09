@@ -1,0 +1,26 @@
+.post-content blockquote {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 24px 0;
+
+  color: #B8B8B8;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.9;
+
+  p {
+    display: inline;
+    background: #252525;
+
+    padding: 2px 5px;
+
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    &::after {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
