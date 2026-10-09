@@ -4,13 +4,13 @@ title: "Panopticon - Woodland Caribou"
 date: 2026-10-05T09:52:12+0200
 ---
 
-Mieliscie kiedys tak, ze po diagnozie dysleksji przezyliscie zal po Stravie i nic juz nie bedzie jak wrzesien?
+Mieliście kiedyś tak, że po diagnozie dysleksji przeżyliście żal po Stravie i nic już nie będzie jak wrzesień?
 
 ## Case Study
 
 {% include youtube.html id="kXrEX_PuuGY" title="Panopticon - Woodland Caribou" %}
 
-Zima, zima, sie dyma na mima.
+Zima, zima, się dyma na mima.
 
 > The firelight flickers against my withered, weathered hands  
 > The years reflected in the dancing flame  
@@ -25,7 +25,7 @@ Pomidor
 > The rustling leaves and falling snow  
 > My name again no one will know  
 
-Zgnily pomidor
+Zgniły pomidor
 
 > Whose land did I wander before I tread here?  
 > Whose forests were ever white?  
@@ -34,12 +34,12 @@ Zgnily pomidor
 > What of blind folds and tattered banners?  
 > Or father’s gods or mother’s cross?  
 
-Okon
+Okoń
 
 > The empty rooms adorned in cobwebs  
 > Life in solitude’s accounted cost.  
 > My cabin ruins let in the winter  
-> My poems’ words of grief and loss.  
+> My poems’ words of grief and loss.   
 > My poems’ words of grief and loss.  
 
 Z dupy do papy (dachowej)
@@ -48,7 +48,7 @@ Z dupy do papy (dachowej)
 > Until I realized that I became  
 > The rustling leaves and falling snow  
 
-Kupilem liscie
+Kupiłem liście
 
 tekst dolny
 
@@ -78,7 +78,7 @@ Duszno na ramieniu
 > As the caribou draws its final breath  
 > As the rice grows soon upon the shore line  
 
-KURWA, ZELAZKO NA GAZIE
+KURWA, ŻELAZKO NA GAZIE
 
 > I’ll remain on this land and I await my death.  
 
@@ -86,9 +86,9 @@ KURWA, ZELAZKO NA GAZIE
 
 ## Post-mortem
 
-Do wymiany zarowki trzeba zarowki i psychologa. Facts.
+Do wymiany żarówki trzeba żarówki i psychologa. Facts.
 
-Fuck knows na co komu wymieniac przepalona zarowke przed rejsem pieknym parostatkiem; wykluczyc nie mozna zwiazku z niedostatkiem i Tadkiem-niejadkiem, amatorem pchania sobie w gebe rzeczy, co nie powinien.
+Fuck knows, na co komu wymieniać przepaloną żarówkę przed rejsem pięknym parostatkiem; wykluczyć nie można związku z niedostatkiem i Tadkiem-niejadkiem, amatorem pchania sobie w gębę rzeczy, co nie powinien.
 
 TADZIK  
 huju
