@@ -29,9 +29,9 @@ minima:
   skin: dark
   date_format: "%Y-%m-%d"
   social_links:
-    - title: GitHub
-      icon: github
+    - icon: github
       url: https://github.com/Raxenite
+      title: PornHub
 defaults:
   - scope:
       path: ""
@@ -39,6 +39,8 @@ defaults:
     values:
       author:
         - "Laura Nara"
+
+lang: pl-PL
 
 # Build settings
 remote_theme: jekyll/minima
