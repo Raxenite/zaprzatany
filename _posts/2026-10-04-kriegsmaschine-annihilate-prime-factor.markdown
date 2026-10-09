@@ -8,7 +8,7 @@ A mial ktos akcje np idzie 3 typow i na ciebie?
 
 Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko sie dalo. System niefalsyfikowalny, nie zapraszam do dyskusji.
 
-# Case Study
+## Case Study
 
 <iframe src="https://www.youtube.com/embed/6IVI-KLg7LQ?si=Fv8dwg-MuDYWufhZ" title="YouTube video player" frameborder="0" allowfullscreen style="width:100%;max-width:560px;aspect-ratio:16/9;"></iframe>
 

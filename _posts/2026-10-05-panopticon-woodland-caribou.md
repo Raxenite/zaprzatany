@@ -6,7 +6,7 @@ date: 2026-10-05T09:52:12+0200
 
 Mieliscie kiedys tak, ze po diagnozie dysleksji przezyliscie zal po Stravie i nic juz nie bedzie jak wrzesien?
 
-# Case Study
+## Case Study
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kXrEX_PuuGY?si=BJT7cLAmVmcXiGmr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
