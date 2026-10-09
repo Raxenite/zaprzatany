@@ -39,11 +39,6 @@ my face when
 
 Every day I'm wkurwinning.
 
-> Trąd i garb i kruchych kości lament.  
-> Przywitaj świat z każdą z jego barw.  
-
-Puszke z guwnem bym zamowil, jakbym sie jaral tak chujowa paleta kolorow.
-
 > Jak blady deszcz.  
 > Prosto do ran.  
 > Prosto do płuc.  
