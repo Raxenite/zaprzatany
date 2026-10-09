@@ -1,0 +1,27 @@
+{%- assign post_url = page.url | absolute_url -%}
+{%- assign post_author = page.author | default: site.author.name -%}
+{%- assign post_title = page.title | smartify | strip_html | normalize_whitespace -%}
+{%- assign post_lang = page.lang | default: site.lang -%}
+<title>{{ post_title | escape_once }} | {{ site.title | escape_once }}</title>
+<meta name="author" content="{{ post_author | escape_once }}">
+<link rel="canonical" href="{{ post_url | escape }}">
+<meta property="og:title" content="{{ post_title | escape_once }}">
+<meta property="og:locale" content="{{ post_lang | replace: '-', '_' | escape }}">
+<meta property="og:url" content="{{ post_url | escape }}">
+<meta property="og:site_name" content="{{ site.title | escape_once }}">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ post_title | escape_once }}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ post_title | jsonify | replace: '<', '\u003c' }},
+  "url": {{ post_url | jsonify }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ post_url | jsonify }} },
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "inLanguage": {{ post_lang | jsonify }},
+  "author": { "@type": "Person", "name": {{ post_author | jsonify | replace: '<', '\u003c' }} }
+}
+</script>

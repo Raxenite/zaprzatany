@@ -3,7 +3,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  {%- seo -%}
+  {%- if page.collection == 'posts' -%}
+    {%- include post-seo.html -%}
+  {%- else -%}
+    {%- seo -%}
+  {%- endif -%}
+  {%- if page.url == '/404.html' -%}
+    <meta name="robots" content="noindex">
+  {%- endif -%}
   <link rel="stylesheet" href="{{ '/assets/fonts/ibm-plex/fonts.css' | relative_url }}">
   <link id="main-stylesheet" rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {%- feed_meta -%}
