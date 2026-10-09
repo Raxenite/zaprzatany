@@ -38,13 +38,6 @@ Kiełbaski spiekły się ciutkę zbyt mocno.
 
 Ani kiełba, ani świnia
 
-> Let the tainted foundations of reality crumble   
-> and let us hope nothing comes afterwards,   
-> so the gravest of mistakes we all blindly wander in   
-> will finally come to an end.   
-
-Impreza chujowa, ale zapadła w pamięć.
-
 > Let there come a glorious error in the patterns of the world.   
 
 Dajmy na to, karkówka wieprzowa, bez wieprzowiny.
