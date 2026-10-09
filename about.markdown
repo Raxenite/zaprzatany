@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+nav_title: Abbath
 permalink: /about/
 ---
 
