@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Zaprzątany
-description: "W kosmosie nikt nie usłyszy twojego cichacza zabijacza."
+description: "W kosmosie nikt nie usłyszy twojego cichacza zabijacza"
 baseurl: "/zaprzatany" # the subpath of your site, e.g. /blog
 url: "https://raxenite.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Raxenite
