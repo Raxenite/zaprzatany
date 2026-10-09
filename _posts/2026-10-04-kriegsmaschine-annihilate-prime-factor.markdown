@@ -4,63 +4,63 @@ title:  "Kriegsmaschine - Annihilate Prime Factor"
 date:   2026-10-04 15:38:14 +0200
 ---
 
-A mial ktos akcje np idzie 3 typow i na ciebie?
+A miał ktoś akcję np. idzie 3 typów i na ciebie?
 
-Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko sie dalo. System niefalsyfikowalny, nie zapraszam do dyskusji.
+Ja nie. Ale nie znam kogoś, kto by tak miał. Modliłbym się za niego, gdyby tylko się dało. System niefalsyfikowalny, nie zapraszam do dyskusji.
 
 ## Case Study
 
 {% include youtube.html id="6IVI-KLg7LQ" title="Kriegsmaschine - Annihilate Prime Factor" %}
 
-Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega ona zniszczeniu, czy tez niewyjasnione okolicznosci (czyt. _czynnik zewnetrzny_) sprawiaja, ze zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, ktory przypomnial sobie o _Chio Taccos_.
+Wyobraźcie sobie przez chwilę maszynerię odpowiadającą za kreację świata. Ulega ona zniszczeniu, czy też niewyjaśnione okoliczności (czyt. _czynnik zewnętrzny_) sprawiają, że zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, który przypomniał sobie o _Chio Taccos_.
 
 <img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; width: 200px; height: auto;" />
 
-Im dalej w las, tym dalej w lesie. Upadek w pelnej krasie... nie. Nie ten utwor. 
+Im dalej w las, tym dalej w lesie. Upadek w pełnej krasie... nie. Nie ten utwór.  
 
-> Towards the tainted omega-pleroma, so perfect  
-> in its warped beauty, it comes to burn the earth  
-> and our hearts shall welcome the flames  
-> with purest of joys.  
+> Towards the tainted omega-pleroma, so perfect   
+> in its warped beauty, it comes to burn the earth   
+> and our hearts shall welcome the flames   
+> with purest of joys.   
 
 Normalne barbecue
 
-> Haunted by the voices of living breathing cosmos,  
-> Isis! Cunt of pneuma, whence all floweth,  
-> exceeding the capacity of pure abstraction,  
-> digitized Logos, blistered into matter.  
+> Haunted by the voices of living breathing cosmos,   
+> Isis! Cunt of pneuma, whence all floweth,   
+> exceeding the capacity of pure abstraction,   
+> digitized Logos, blistered into matter.   
 
-Kielbaski spiekly sie ciutke zbyt mocno. 
+Kiełbaski spiekły się ciutkę zbyt mocno.  
 
-> Annihilate prime factor.  
-> Thrice deny divine restraint. Reject all things finite and infinite.  
-> Annihilate prime factor.  
+> Annihilate prime factor.   
+> Thrice deny divine restraint. Reject all things finite and infinite.   
+> Annihilate prime factor.   
 
-Ani kielba, ani swinia
+Ani kiełba, ani świnia
 
-> Let the tainted foundations of reality crumble  
-> and let us hope nothing comes afterwards,  
-> so the gravest of mistakes we all blindly wander in  
-> will finally come to an end.  
+> Let the tainted foundations of reality crumble   
+> and let us hope nothing comes afterwards,   
+> so the gravest of mistakes we all blindly wander in   
+> will finally come to an end.   
 
-Impreza chujowa, ale zapadla w pamiec.
+Impreza chujowa, ale zapadła w pamięć.
 
-> Let there come a glorious error in the patterns of the world.  
+> Let there come a glorious error in the patterns of the world.   
 
-Dajmy na to, karkowka wieprzowa, bez wieprzowiny.
+Dajmy na to, karkówka wieprzowa, bez wieprzowiny.
 
-> Let these words be as sand in the cogwheels of reason,  
-> as a malign disturbance in the sustainment of universe,  
-> and let each quark of this degenerated microcosm  
+> Let these words be as sand in the cogwheels of reason,   
+> as a malign disturbance in the sustainment of universe,   
+> and let each quark of this degenerated microcosm   
 > stand as a citadel of cold and deliberate hatred.  
 
-Pierdole, drugi raz nie dam sie namowic na tak chujowe party.
+Pierdolę, drugi raz nie dam się namówić na tak chujowe party.
 
 ## Post-mortem
 
 Do rozpalenia grilla potrzebujesz:
 
 - grill
-- glownie grill
+- głównie grill
 
-Kiedy zabraknie dowolnego ze skladnikow, mozna mowic o szkolnej dyskotece, imprezie w remizie strazackiej, obchodach dnia ziemi, dniu sprzatania lasu. Nie mozna za to mowic o kolczykach, jakie bys ukrecil z napletkow, gdybys jakims cudem mial dwa. Bez zwiazku z grillem - po prostu nie mozna. 
+Kiedy zabraknie dowolnego ze składników, można mówić o szkolnej dyskotece, imprezie w remizie strażackiej, obchodach Dnia Ziemi, dniu sprzątania lasu. Nie można za to mówić o kolczykach, jakie byś ukręcił z napletków, gdybyś jakimś cudem miał dwa. Bez związku z grillem - po prostu nie można.
