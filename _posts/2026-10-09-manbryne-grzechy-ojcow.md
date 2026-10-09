@@ -23,8 +23,8 @@ Amen
 
 ## Case Study
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tcJ4YRnnU7A?si=y1w9RIf5IkAkBuSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  
+{% include youtube.html id="tcJ4YRnnU7A" title="Mānbryne - Grzechy ojców" %}
+
 > Kolejny huk, kolejny strzał.  
 > Kojący dźwięk  
 

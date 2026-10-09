@@ -10,7 +10,7 @@ Ja nie. Ale nie znam kogos, kto by tak mial. Modlilbym sie za niego, gdyby tylko
 
 ## Case Study
 
-<iframe src="https://www.youtube.com/embed/6IVI-KLg7LQ?si=Fv8dwg-MuDYWufhZ" title="YouTube video player" frameborder="0" allowfullscreen style="width:100%;max-width:560px;aspect-ratio:16/9;"></iframe>
+{% include youtube.html id="6IVI-KLg7LQ" title="Kriegsmaschine - Annihilate Prime Factor" %}
 
 Wyobrazcie sobie przez chwile maszynerie odpowiadajaca za kreacje swiata. Ulega ona zniszczeniu, czy tez niewyjasnione okolicznosci (czyt. _czynnik zewnetrzny_) sprawiaja, ze zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, ktory przypomnial sobie o _Chio Taccos_.
 
