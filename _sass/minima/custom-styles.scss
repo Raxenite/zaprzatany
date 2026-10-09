@@ -1,26 +1,33 @@
-.post-content blockquote {
-  background: transparent;
-  border: none;
-  padding: 0;
-  margin: 24px 0;
+.post-content {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 
-  color: #B8B8B8;
-  font-size: 16px;
-  font-style: italic;
-  line-height: 1.9;
+  blockquote {
+    text-align: left;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 24px 0;
 
-  p {
-    display: inline;
-    background: #252525;
+    color: #b8b8b8;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.9;
 
-    padding: 2px 5px;
+    p {
+      display: inline;
+      background: #252525;
 
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
+      padding: 2px 5px;
 
-    &::after {
-      content: "\A";
-      white-space: pre;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+
+      &::after {
+        content: "\A";
+        white-space: pre;
+      }
     }
   }
 }

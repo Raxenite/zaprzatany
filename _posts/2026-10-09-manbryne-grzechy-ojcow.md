@@ -4,7 +4,7 @@ title: "Mānbryne - Grzechy ojców"
 date: 2026-10-09T13:08:32+0200
 ---
 
-Jest sobie taki wafel, Grzesiek. I on jest bystry niczym wafel, no nie. I moze nawet bystry niczym wiekszosc ksiegowych, nie oceniam. Przyszla kryska na Matyska, huja w ogien znad ogniska. 
+Jest sobie taki wafel, _Grzesiek_. I on jest bystry niczym wafel, no nie. I moze nawet bystry niczym wiekszosc ksiegowych, nie oceniam. Przyszla kryska na Matyska, huja w ogien znad ogniska. 
 
 ~~Blaze of Perdition~~ Mānbryne nagralo (nagrali?) w 2023 r. album, niezly skadinad. I fajnie, i ok, i kasa tryby, i w ogole, i w szczegole, i w innym wzgledzie wszelakim, i rano, i wieczorem, i przed rankiem, czyli w nocy. Jebac kurwy ~~z roksy~~ z korpo. No bo kurwa, chcesz se nie wiem, postawic kropke na website. No ile to roboty, kurwa? Otoz zalezy, czy:
 
