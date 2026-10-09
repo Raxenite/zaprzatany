@@ -51,11 +51,6 @@ Puszke z guwnem bym zamowil, jakbym sie jaral tak chujowa paleta kolorow.
 
 NIECH SPADNIE, KURWA, DESZCZ
 
-> Naprzód! Na świat! Dopóki jeszcze kona.  
-> To nam przyjdzie ojców pogrzebać.  
-
-Zdycha - niech zdycha, w dupie se pogrzebie predzej.
-
 > W otwarte rany, jak w uciech głodne łona,  
 > wtłoczymy sól wrodzonych win.  
 
