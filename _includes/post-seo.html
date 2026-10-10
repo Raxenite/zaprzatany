@@ -2,10 +2,14 @@
 {%- assign post_author = page.author | default: site.author.name -%}
 {%- assign post_title = page.title | smartify | strip_html | normalize_whitespace -%}
 {%- assign post_lang = page.lang | default: site.lang -%}
+{%- capture default_description -%}{{ post_title }} — wpis na blogu {{ site.title }}. Autor: {{ post_author }}.{%- endcapture -%}
+{%- assign post_description = page.description | default: default_description | strip_html | normalize_whitespace -%}
 <title>{{ post_title | escape_once }} | {{ site.title | escape_once }}</title>
+<meta name="description" content="{{ post_description | escape_once }}">
 <meta name="author" content="{{ post_author | escape_once }}">
 <link rel="canonical" href="{{ post_url | escape }}">
 <meta property="og:title" content="{{ post_title | escape_once }}">
+<meta property="og:description" content="{{ post_description | escape_once }}">
 <meta property="og:locale" content="{{ post_lang | replace: '-', '_' | escape }}">
 <meta property="og:url" content="{{ post_url | escape }}">
 <meta property="og:site_name" content="{{ site.title | escape_once }}">
@@ -13,6 +17,7 @@
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ post_title | escape_once }}">
+<meta name="twitter:description" content="{{ post_description | escape_once }}">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

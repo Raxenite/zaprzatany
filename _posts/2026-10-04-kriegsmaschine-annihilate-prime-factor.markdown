@@ -14,7 +14,7 @@ Ja nie. Ale nie znam kogoś, kto by tak miał. Modliłbym się za niego, gdyby t
 
 Wyobraźcie sobie przez chwilę maszynerię odpowiadającą za kreację świata. Ulega ona zniszczeniu, czy też niewyjaśnione okoliczności (czyt. _czynnik zewnętrzny_) sprawiają, że zostaje zniszczona. Patrzycie na to jak facet po obrzezaniu, który przypomniał sobie o _Chio Taccos_.
 
-<img src="{{ site.baseurl }}/assets/images/chio-taccos.jpg" style="display: block; width: 200px; height: auto;" />
+<img src="{{ site.baseurl }}/assets/images/chio-taccos.webp" alt="Opakowanie chrupek Chio Taccos Texas Barbecue." width="400" height="590" loading="lazy" decoding="async" style="display: block; width: 200px; height: auto;" />
 
 Im dalej w las, tym dalej w lesie. Upadek w pełnej krasie... nie. Nie ten utwór.  
 

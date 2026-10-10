@@ -71,7 +71,7 @@ Duszno na ramieniu
 > minute by minute  
 > watching the clock expire.  
 
-<img src="{{ site.baseurl }}/assets/images/najman-zegarek.jpeg" style="display: block; width: 200px; height: auto;" />
+<img src="{{ site.baseurl }}/assets/images/najman-zegarek.webp" alt="Mężczyzna wskazujący na zegarek." width="464" height="431" loading="lazy" decoding="async" style="display: block; width: 200px; height: auto;" />
 
 > (awaiting) As the cedar withers and cracks  
 > (awaiting) As the winter loosens its grasp  
@@ -82,7 +82,7 @@ KURWA, ŻELAZKO NA GAZIE
 
 > I’ll remain on this land and I await my death.  
 
-<img src="{{ site.baseurl }}/assets/images/where-mine.jpeg" style="display: block; width: 300px; height: auto;" />
+<img src="{{ site.baseurl }}/assets/images/where-mine.webp" alt="Zdezorientowany mężczyzna rozgląda się po pokoju z wyciągniętą dłonią." width="596" height="335" loading="lazy" decoding="async" style="display: block; width: 300px; height: auto;" />
 
 ## Post-mortem
 

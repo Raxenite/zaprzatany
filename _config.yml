@@ -53,6 +53,9 @@ lang: pl-PL
 excerpt_separator: ""
 
 # Build settings
+sass:
+  style: compressed
+
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
