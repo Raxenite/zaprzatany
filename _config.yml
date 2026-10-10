@@ -19,11 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Zaprzątany
-description: "w kosmosie nikt nie usłyszy twojego cichacza zabijacza"
+description: "W kosmosie nikt nie usłyszy twojego cichacza zabijacza."
 baseurl: "/zaprzatany" # the subpath of your site, e.g. /blog
 url: "https://raxenite.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Laura Nara
+privacy_email: bk@brikolaz.pl
 
 minima:
   skin: dark
@@ -32,6 +33,9 @@ minima:
     - icon: github
       url: https://github.com/Raxenite
       title: PornHub
+  nav_pages:
+    - about.md
+  
 defaults:
   - scope:
       path: ""

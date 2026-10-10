@@ -1,9 +1,13 @@
-<div class="youtube-embed">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/{{ include.id | escape }}"
-    title="{{ include.title | default: 'YouTube' | escape }}"
-    loading="lazy"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
+<div class="youtube-embed" data-video-id="{{ include.id | escape }}" data-video-title="{{ include.title | default: 'YouTube' | escape }}">
+  <div class="youtube-placeholder">
+    <p>{{ include.title | default: 'Film YouTube' | escape }}</p>
+    <p>Włączenie filmu połączy Cię z YouTube. Google otrzyma informacje o odtwarzaniu filmu i Twoim połączeniu.</p>
+    <p class="privacy-links">
+      {% include about-privacy.html %}
+      ·
+      <a href="#privacy-panel" data-privacy-settings hidden>Ustawienia prywatności</a>
+    </p>
+    <button type="button" data-video-consent hidden>Zgadzam się, włącz</button>
+    <a href="https://www.youtube.com/watch?v={{ include.id | escape }}" rel="noreferrer">Obejrzyj na YouTubie</a>
+  </div>
 </div>

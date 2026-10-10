@@ -1,0 +1,51 @@
+<section
+  id="privacy-panel"
+  class="privacy-panel"
+  aria-labelledby="privacy-title"
+  hidden
+>
+  <button
+    type="button"
+    class="privacy-close"
+    data-privacy-close
+    aria-label="Zamknij ustawienia prywatności"
+    hidden
+  >
+    {% include icon-xmark.svg %}
+  </button>
+  <h2 id="privacy-title" tabindex="-1">Prywatność</h2>
+  <p>
+    Możesz czytać cały blog bez żadnej zgody (serio). Jeśli chcesz, możesz
+    pozwolić na zbieranie statystyk i wyświetlanie filmów z YouTube'a.
+  </p>
+
+<label>
+  <input type="checkbox" id="privacy-analytics" />
+  <span>
+    <strong>Statystyki (Umami)</strong> — zliczymy odwiedziny i zbierzemy
+    podstawowe dane o odwiedzonych stronach, urządzeniu oraz przeglądarce.
+  </span>
+</label>
+
+<label>
+  <input type="checkbox" id="privacy-youtube" />
+  <span>
+    <strong>Filmy (YouTube)</strong> — Google dostanie informacje o odtwarzaniu
+    filmu i Twoim połączeniu.
+  </span>
+</label>
+
+
+  <p>
+    Wybór zapamiętamy na tym urządzeniu przez 6 miesięcy. Możesz go zmienić lub
+    wycofać w stopce.
+  </p>
+  <p>{% include about-privacy.html %}</p>
+  <div class="privacy-actions">
+    <button type="button" data-privacy-choice="save">Zapisz</button>
+    <button type="button" data-privacy-choice="accept">
+      Akceptuj wszystkie
+    </button>
+    <button type="button" data-privacy-choice="reject">Odrzuć wszystkie</button>
+  </div>
+</section>

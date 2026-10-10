@@ -9,19 +9,40 @@ body,
 .post-content h2,
 .post-content h3,
 .post-content h4 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Zaprzatany Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
 }
 
 .post-meta {
-  font: 0.8rem "IBM Plex Mono", monospace;
+  font:
+    0.8rem "Zaprzatany Mono",
+    monospace;
   letter-spacing: 0.01em;
 }
 
+// Content
+
 .post-content {
-  font: 17px/1.75 "IBM Plex Serif", Georgia, serif;
+  font:
+    17px/1.75 "Zaprzatany Serif",
+    Georgia,
+    serif;
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+
+  img,
+  .youtube-embed {
+    box-sizing: border-box;
+    border: 1px solid #222222;
+  }
+
+  img {
+    filter: grayscale(100%) contrast(1.1);
+  }
 
   .youtube-embed {
     position: relative;
@@ -30,12 +51,17 @@ body,
     overflow: hidden;
     margin-bottom: 2rem;
 
+    &:has(.youtube-placeholder:not([hidden])) {
+      aspect-ratio: auto;
+    }
+
     > iframe {
       position: absolute;
       inset: 0;
       width: 100%;
       height: 100%;
       border: 0;
+      filter: grayscale(100%) contrast(1.1);
     }
   }
 
@@ -45,8 +71,13 @@ body,
     border: 0;
     padding: 0;
     margin: 24px 0;
-    color: #b8b8b8;
-    font: italic 16px/1.9 "IBM Plex Serif", Georgia, serif;
+    color: #bebebe;
+    font:
+      italic 400 17px/1.95 "Zaprzatany Serif",
+      Georgia,
+      serif;
+    letter-spacing: 0.025em;
+    font-kerning: normal;
 
     p {
       display: inline;
@@ -66,6 +97,8 @@ body,
 // Links
 
 .post-content a,
+.site-footer .privacy-links a,
+.site-footer .privacy-links a:visited,
 .site-nav .nav-item,
 .site-nav .nav-item:visited {
   color: #dedede;
@@ -99,6 +132,8 @@ body,
 .site-title:visited {
   color: #dedede;
   text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
 
   &:hover {
     color: #fff;
@@ -114,6 +149,10 @@ body,
     align-items: flex-start;
     justify-content: space-between;
     gap: 2rem;
+
+    &::after {
+      content: none;
+    }
   }
 
   .footer-col-wrapper {
@@ -140,6 +179,227 @@ body,
   }
 }
 
+// Privacy
+
+[hidden] {
+  display: none !important;
+}
+
+.privacy-panel {
+  position: fixed;
+  z-index: 1000;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  max-width: 720px;
+  max-height: 75vh;
+  overflow: auto;
+  margin: auto;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  background: #181818;
+  color: #bbbbbb;
+  border: 1px solid #242424;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+  font:
+    15px/1.5 "Zaprzatany Sans",
+    sans-serif;
+
+  h2 {
+    font-size: 1.25rem;
+    padding-right: 3rem;
+  }
+
+  a {
+    color: #bbbbbb;
+    text-decoration: underline;
+  }
+
+  label {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr);
+    align-items: start;
+    column-gap: 12px;
+    margin: 0.75rem 0;
+    cursor: pointer;
+
+    > span {
+      margin-top: -4px;
+    }
+  }
+
+  input[type="checkbox"] {
+    appearance: none;
+    display: grid;
+    place-content: center;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: 1px solid #555;
+    border-radius: 0;
+    background: transparent;
+    cursor: pointer;
+
+    &::before {
+      content: "";
+      width: 6px;
+      height: 11px;
+      border: solid #ccc;
+      border-width: 0 2px 2px 0;
+      transform: translateY(-2px) rotate(45deg) scale(0);
+    }
+
+    &:checked {
+      background: #333;
+      border-color: #555;
+
+      &::before {
+        transform: translateY(-2px) rotate(45deg) scale(1);
+      }
+    }
+
+    &:hover {
+      border-color: #888;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #aaa;
+      outline-offset: 3px;
+    }
+  }
+
+  .privacy-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+
+    svg {
+      width: 12px;
+      height: 12px;
+      fill: currentColor;
+    }
+  }
+}
+
+.privacy-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (min-width: 1600px) {
+  .privacy-panel {
+    left: auto;
+    width: calc((100vw - 860px) / 2 - 2rem);
+    max-width: 440px;
+    margin: 0;
+  }
+}
+
+// Buttons
+
+.privacy-panel button,
+.youtube-placeholder button {
+  padding: 10px 12px;
+  border: 1px solid #2b2b2b;
+  border-radius: 0;
+  background: transparent;
+  color: #bbbbbb;
+  font: inherit;
+  cursor: pointer;
+
+  &:hover {
+    border-color: #a6a6a6;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #a6a6a6;
+    outline-offset: 3px;
+  }
+}
+
+// YouTube placeholder
+
+.youtube-placeholder {
+  padding: 1rem;
+  text-align: left;
+  font:
+    15px/1.5 "Zaprzatany Sans",
+    sans-serif;
+
+  > p:first-child {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #c4c4c4;
+    margin-bottom: 16px;
+  }
+
+  button {
+    margin: 0 0.5rem 0.5rem 0;
+  }
+}
+
+// Icons
+
+// Inline outlines from Font Awesome 7.0.0 (CC BY 4.0).
+.social-icon {
+  display: inline-block;
+  width: 1.25em;
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+  text-align: center;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+  }
+}
+
+// Mobile navigation
+
+.site-nav #nav-trigger ~ label[for="nav-trigger"] .menu-icon {
+  &::before {
+    content: none;
+  }
+
+  svg {
+    height: 1em;
+    vertical-align: -0.125em;
+    position: relative;
+    top: -0.5em;
+  }
+
+  .icon-bars {
+    width: 0.875em;
+    font-size: 1.25em;
+  }
+
+  .icon-xmark {
+    display: none;
+    width: 0.75em;
+    font-size: 1.5em;
+    top: calc(-0.5em - 2px);
+  }
+}
+
+.site-nav #nav-trigger:checked ~ label[for="nav-trigger"] .menu-icon {
+  .icon-bars {
+    display: none;
+  }
+
+  .icon-xmark {
+    display: inline;
+  }
+}
+
 // Mobile
 
 @media (max-width: 600px) {
@@ -149,9 +409,8 @@ body,
   }
 }
 
-.site-title,
-.site-title:visited {
-  font-family: "IBM Plex Sans", sans-serif;
-  text-transform: none;
-  letter-spacing: normal;
+@media (min-width: 601px) {
+  .privacy-panel {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  }
 }

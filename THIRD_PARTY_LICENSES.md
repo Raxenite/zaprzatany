@@ -1,14 +1,14 @@
-# Informacje o oprogramowaniu osób trzecich
+# Oprogramowanie i materiały osób trzecich
 
 ## Minima
 
-Projekt Zaprzątany korzysta z motywu [Minima](https://github.com/jekyll/minima).
-Fragmenty szablonów Minima mogą być wykorzystane i zmodyfikowane w tym repozytorium.
-Oryginalne prawa autorskie do tych fragmentów pozostają przy ich twórcach.
+Zaprzątany korzysta z motywu [Minima](https://github.com/jekyll/minima). Niektóre jego szablony zostały zmodyfikowane na potrzeby bloga.
 
-Poniżej zamieszczono oryginalną informację o prawach autorskich i pełne warunki licencji Minima:
+Minima jest udostępniana na licencji MIT. Prawa autorskie do oryginalnego kodu należą do jego twórców.
 
-```text
+Pełna treść licencji:
+
+```
 The MIT License (MIT)
 
 Copyright (c) 2016-present Parker Moore and the minima contributors
@@ -19,8 +19,10 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
+
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -30,6 +32,26 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-Źródło: https://github.com/jekyll/minima/blob/master/LICENSE.txt
+Źródło: [Licencja Minima](https://github.com/jekyll/minima/blob/master/LICENSE.txt).
 
-Pozostałe zależności używane podczas budowania strony zachowują własne licencje.
+## IBM Plex
+
+Blog wykorzystuje lokalnie przechowywane fonty [IBM Plex](https://github.com/IBM/plex), których warianty Latin i Latin Extended zostały scalone w celu ograniczenia liczby pobieranych plików.
+
+Fonty pozostają własnością IBM Corp. (© 2017) i są udostępniane na licencji SIL Open Font License 1.1.
+
+Pełna licencja: [`assets/fonts/ibm-plex/LICENSE.txt`](assets/fonts/ibm-plex/LICENSE.txt).
+
+## Font Awesome
+
+Ikony GitHub, menu i zamknięcia menu pochodzą z [Font Awesome Free 7.0.0](https://fontawesome.com/), © 2025 Fonticons, Inc.
+
+Są wykorzystywane jako lokalne pliki SVG, bez ładowania fontów ikon ani arkuszy CSS Font Awesome.
+
+Ikony są udostępniane na licencji [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Pełne informacje licencyjne: [`assets/fonts/fontawesome/LICENSE.txt`](assets/fonts/fontawesome/LICENSE.txt).
+
+---
+
+Pozostałe narzędzia i zależności używane do budowania strony zachowują własne licencje.

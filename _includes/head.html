@@ -11,11 +11,6 @@
   {%- if page.url == '/404.html' -%}
     <meta name="robots" content="noindex">
   {%- endif -%}
-  <script
-    defer
-    src="https://cloud.umami.is/script.js"
-    data-website-id="1609d94e-4c69-4b96-bdca-2387c74f844d"
-  ></script>
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/fonts/ibm-plex/fonts.css' | relative_url }}">
   <link id="main-stylesheet" rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -23,6 +18,7 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  
-<link rel="stylesheet" href="{{ '/assets/fonts/fontawesome/all.min.css' | relative_url }}">
+
+  {%- include custom-head.html -%}
+
 </head>

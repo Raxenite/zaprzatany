@@ -1,0 +1,2 @@
+{% assign privacy_page = site.pages | where: "url", "/privacy/" | first %}
+<a href="{{ privacy_page.url | relative_url }}">{{ privacy_page.title | escape }}</a>
