@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Jekyll Dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "bundle exec jekyll serve --host 0.0.0.0 --livereload --open-url",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
