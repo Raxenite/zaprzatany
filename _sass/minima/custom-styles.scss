@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
   text-justify: inter-word;
   hyphens: auto;
 
+  p {
+    letter-spacing: -0.01em
+  }
+
   img,
   .youtube-embed {
     box-sizing: border-box;
