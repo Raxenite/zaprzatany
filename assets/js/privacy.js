@@ -120,7 +120,7 @@
     if (!panel || !closeButton || !analytics || !youtube) return;
     initialized.add(document.body);
     closeButton.hidden = !choice;
-    document.querySelectorAll('[data-privacy-settings], [data-video-consent]').forEach((control) => {
+    document.querySelectorAll('[data-privacy-controls], [data-privacy-settings], [data-video-consent]').forEach((control) => {
       control.hidden = false;
     });
     analytics.checked = choice?.analytics === true;
