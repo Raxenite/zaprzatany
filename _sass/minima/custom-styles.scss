@@ -98,6 +98,14 @@ h1, h2, h3, h4, h5, h6 {
 
 // Links
 
+.pagination li a {
+  &,
+  &:visited,
+  &:hover {
+    @extend .grey;
+  }
+}
+
 .post-content a,
 .privacy-panel a,
 .site-footer .privacy-links a,

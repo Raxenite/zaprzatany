@@ -36,6 +36,9 @@ minima:
   nav_pages:
     - about.md
   
+paginate: 10
+paginate_path: "/page/:num/"
+
 defaults:
   - scope:
       path: ""
@@ -62,6 +65,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 exclude:
   - THIRD_PARTY_LICENSES.md
