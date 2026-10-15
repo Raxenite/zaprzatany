@@ -15,6 +15,9 @@ body::before {
   opacity: 0.5;
   background-image: url("/assets/images/noise50.png");
   background-repeat: repeat;
+  @media (min-width: 601px) {
+    opacity: 0.7;
+  }
 }
 
 body,
