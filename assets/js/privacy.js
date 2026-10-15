@@ -12,10 +12,8 @@
         saved.time <= Date.now() && Date.now() - saved.time < lifetime) choice = saved;
   } catch { /* Without storage, consent applies only to this page. */ }
 
-  const panel = document.getElementById('privacy-panel');
-  const closeButton = document.querySelector('[data-privacy-close]');
-  const analytics = document.getElementById('privacy-analytics');
-  const youtube = document.getElementById('privacy-youtube');
+  let panel, closeButton, analytics, youtube;
+  const initialized = new WeakSet();
   let analyticsLoaded = false;
   let expiry;
 
@@ -62,15 +60,8 @@
     document.getElementById('privacy-title').focus();
   };
 
-  closeButton.hidden = !choice;
-  closeButton.addEventListener('click', () => {
-    if (!choice) return;
-    panel.hidden = true;
-    document.querySelector('.site-footer [data-privacy-settings]').focus({ preventScroll: true });
-  });
-
   document.addEventListener('click', (event) => {
-    if (!choice || panel.hidden || panel.contains(event.target) ||
+    if (!panel || !choice || panel.hidden || panel.contains(event.target) ||
         event.target.closest('[data-privacy-settings]')) return;
     const focusWasInside = panel.contains(document.activeElement);
     panel.hidden = true;
@@ -79,9 +70,12 @@
     }
   });
 
-  document.querySelectorAll('[data-privacy-settings]').forEach((link) => {
-    link.hidden = false;
-    link.addEventListener('click', (event) => {
+  document.addEventListener('click', (event) => {
+    if (!panel) return;
+    const link = event.target.closest('[data-privacy-settings]');
+    const video = event.target.closest('[data-video-consent]');
+    const button = event.target.closest('[data-privacy-choice]');
+    if (link) {
       event.preventDefault();
       if (choice && !panel.hidden) {
         panel.hidden = true;
@@ -89,14 +83,13 @@
       } else {
         openSettings();
       }
-    });
-  });
-  document.querySelectorAll('[data-video-consent]').forEach((button) => {
-    button.hidden = false;
-    button.addEventListener('click', () => loadVideo(button.closest('[data-video-id]')));
-  });
-  document.querySelectorAll('[data-privacy-choice]').forEach((button) => {
-    button.addEventListener('click', () => {
+    } else if (video) {
+      loadVideo(video.closest('[data-video-id]'));
+    } else if (event.target.closest('[data-privacy-close]')) {
+      if (!choice) return;
+      panel.hidden = true;
+      document.querySelector('.site-footer [data-privacy-settings]').focus({ preventScroll: true });
+    } else if (button) {
       const action = button.dataset.privacyChoice;
       const previousAnalytics = choice?.analytics;
       choice = {
@@ -115,14 +108,51 @@
       if (previousAnalytics && !choice.analytics) location.reload();
       else apply();
       document.querySelector('.site-footer [data-privacy-settings]').focus({ preventScroll: true });
-    });
+    }
   });
+
+  const initialize = () => {
+    if (initialized.has(document.body)) return;
+    panel = document.getElementById('privacy-panel');
+    closeButton = document.querySelector('[data-privacy-close]');
+    analytics = document.getElementById('privacy-analytics');
+    youtube = document.getElementById('privacy-youtube');
+    if (!panel || !closeButton || !analytics || !youtube) return;
+    initialized.add(document.body);
+    closeButton.hidden = !choice;
+    document.querySelectorAll('[data-privacy-settings], [data-video-consent]').forEach((control) => {
+      control.hidden = false;
+    });
+    analytics.checked = choice?.analytics === true;
+    youtube.checked = choice?.youtube === true;
+    panel.hidden = !!choice;
+    apply();
+  };
+
   window.addEventListener('storage', (event) => {
     if (event.key === key || event.key === null) {
       choice = null;
       location.reload();
     }
   });
-  if (!choice) panel.hidden = false;
-  apply();
+  document.addEventListener('turbo:load', initialize);
+  document.addEventListener('turbo:before-cache', () => {
+    // Cache neutral UI: never restore a playing iframe or unsaved settings.
+    document.querySelectorAll('[data-video-id]').forEach((container) => {
+      container.querySelector('iframe')?.remove();
+      container.querySelector('.youtube-placeholder').hidden = false;
+    });
+    if (panel) {
+      panel.hidden = true;
+      analytics.checked = choice?.analytics === true;
+      youtube.checked = choice?.youtube === true;
+    }
+    initialized.delete(document.body);
+    panel = closeButton = analytics = youtube = null;
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initialize, { once: true });
+  } else {
+    initialize();
+  }
 })();

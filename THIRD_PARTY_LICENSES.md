@@ -52,6 +52,12 @@ Ikony są udostępniane na licencji [Creative Commons Attribution 4.0](https://c
 
 Pełne informacje licencyjne: [`assets/fonts/fontawesome/LICENSE.txt`](assets/fonts/fontawesome/LICENSE.txt).
 
+## Turbo
+
+Blog wykorzystuje lokalną kopię [Turbo 8.0.23](https://github.com/hotwired/turbo), © 2026 37signals LLC, na licencji MIT.
+
+Pełna licencja: [`assets/js/turbo.LICENSE.txt`](assets/js/turbo.LICENSE.txt).
+
 ---
 
 Pozostałe narzędzia i zależności używane do budowania strony zachowują własne licencje.
