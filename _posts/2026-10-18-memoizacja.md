@@ -41,12 +41,26 @@ class Me {
   readonly good = true
 
   evaluate(action) {
-    return "GOOD"
+    if (this.good) return "GOOD";
+    // ...
+    return conditions ? "GOOD" : "BAD"
   }
 }
 ```
 
 Lepiej
+
+```ts
+class Me {
+  readonly good = true
+
+  evaluate(action) {
+    return "GOOD"
+  }
+}
+```
+
+Jeszcze Lepiej
 
 ```ts
 class Me {
