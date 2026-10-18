@@ -54,6 +54,7 @@ defaults:
 lang: pl-PL
 # Do not derive feed summaries or SEO descriptions from literary content.
 excerpt_separator: ""
+permalink: /wpisy/:title/
 
 # Build settings
 sass:
