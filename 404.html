@@ -1,26 +1,35 @@
 ---
 permalink: /404.html
-layout: page
+layout: base
 sitemap: false
 ---
 
 <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
+  .page-content:has(.error-404) {
+    display: flex;
+    align-items: center;
+  }
+  .page-content:has(.error-404) > .wrapper {
+    flex: 1;
+  }
+  .error-404 {
+    margin: 0 auto;
     max-width: 600px;
     text-align: center;
   }
-  h1 {
+  .error-404 h1 {
     margin: 30px 0;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
   }
+  .error-404 p {
+    margin-bottom: 30px;
+  }
 </style>
 
-<div class="container">
+<div class="error-404 post-content">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p>Zrób fikołka.</p>
 </div>
