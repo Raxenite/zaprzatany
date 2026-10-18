@@ -6,6 +6,13 @@ body {
   background: transparent;
 }
 
+pre,
+code,
+div.highlight,
+figure.highlight {
+  border-radius: 0;
+}
+
 .site-header {
   border-top: 0;
 }
