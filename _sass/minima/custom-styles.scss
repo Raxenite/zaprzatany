@@ -6,6 +6,13 @@ body {
   background: transparent;
 }
 
+body,
+.site-footer .footer-col-wrapper,
+.privacy-panel,
+.youtube-placeholder {
+  color: #a3a3a3;
+}
+
 pre,
 code,
 div.highlight,
@@ -59,6 +66,15 @@ body,
 .post-content h3,
 .post-content h4 {
   font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-content :is(h1, h2, h3, h4, h5, h6) a,
+.post-list .post-link,
+.privacy-panel label strong,
+.youtube-placeholder > p:first-child,
+.youtube-placeholder > p:first-child a {
+  color: #c5c5c5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -130,7 +146,7 @@ strong, b {
     border: 0;
     padding: 0;
     margin: 24px 0;
-    color: #bebebe;
+    color: inherit;
     font:
       italic 400 17px/1.95 "IBM Plex Serif",
       Georgia,
@@ -139,7 +155,7 @@ strong, b {
 
     p {
       display: inline;
-      background: #252525;
+      background: rgba(19, 19, 19, 0.7);
       padding: 2px 5px;
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
@@ -154,11 +170,41 @@ strong, b {
 
 // Links
 
-.pagination li a {
-  &,
-  &:visited,
-  &:hover {
-    @extend .grey;
+.pagination {
+  color: #a3a3a3;
+
+  li a {
+    background: #181818;
+    border: 1px solid #555;
+    border-radius: 0;
+  }
+
+  li div.current-page {
+    border-color: transparent;
+  }
+
+  li div.pager-edge {
+    background: #181818;
+    color: #a3a3a3;
+    border: 1px dashed #555;
+    border-radius: 0;
+  }
+
+  li a {
+    &,
+    &:visited,
+    &:hover {
+      color: #a3a3a3;
+    }
+
+    &:hover {
+      border-color: #a6a6a6;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #a6a6a6;
+      outline-offset: 3px;
+    }
   }
 }
 
@@ -184,7 +230,6 @@ strong, b {
 }
 
 .post-list .post-link {
-  color: #d0d0d0;
   text-decoration: underline;
   text-decoration-color: #555;
   text-decoration-thickness: 1px;
@@ -247,10 +292,18 @@ strong, b {
     margin: 0;
 
     li a {
+      color: #a3a3a3;
+      background: transparent;
+      border-radius: 0;
       border-color: #555;
 
       &:hover {
         border-color: #a6a6a6;
+      }
+
+      &:focus-visible {
+        outline: 2px solid #a6a6a6;
+        outline-offset: 3px;
       }
     }
   }
@@ -275,7 +328,6 @@ strong, b {
   padding: 1.25rem;
   box-sizing: border-box;
   background: #181818;
-  color: $text-color;
   border: 1px solid #242424;
   
   font:
@@ -288,7 +340,6 @@ strong, b {
   }
 
   label strong {
-    color: $heading-color;
     font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -389,7 +440,7 @@ strong, b {
   border: 1px solid #555;
   border-radius: 0;
   background: transparent;
-  color: #bbbbbb;
+  color: inherit;
   font: inherit;
   cursor: pointer;
 
@@ -424,7 +475,6 @@ strong, b {
   > p:first-child {
     font-size: 18px;
     line-height: 1.4;
-    color: #c4c4c4;
     margin-bottom: 16px;
   }
 
@@ -496,8 +546,8 @@ strong, b {
 
 @media (max-width: 600px) {
   .post-content blockquote p {
-    background: #363636;
-    color: #c9c9c9;
+    background: rgba(20, 20, 20, 0.7);
+    color: inherit;
   }
 }
 
