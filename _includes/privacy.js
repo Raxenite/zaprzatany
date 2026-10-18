@@ -150,9 +150,6 @@
     initialized.delete(document.body);
     panel = closeButton = analytics = youtube = null;
   });
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initialize, { once: true });
-  } else {
-    initialize();
-  }
+  // The panel is already parsed; do not wait for deferred modules or DOMContentLoaded.
+  initialize();
 })();
