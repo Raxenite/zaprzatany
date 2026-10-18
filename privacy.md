@@ -1,7 +1,7 @@
 ---
 layout: page
 title: O prywatności
-permalink: /privacy/
+permalink: /prywatnosc/
 ---
 
 ## Administrator danych
