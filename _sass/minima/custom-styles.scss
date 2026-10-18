@@ -13,6 +13,26 @@ figure.highlight {
   border-radius: 0;
 }
 
+div.highlight,
+figure.highlight {
+  border: 0;
+}
+
+pre {
+  padding: 1rem;
+  border: 1px solid #222222;
+
+  code {
+    background-color: transparent;
+  }
+}
+
+pre,
+.highlight,
+.youtube-placeholder {
+  background-color: #181818;
+}
+
 .site-header {
   border-top: 0;
 }
@@ -23,12 +43,9 @@ body::before {
   inset: 0;
   pointer-events: none;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.8;
   background-image: url("/assets/images/noise50.png");
   background-repeat: repeat;
-  @media (min-width: 601px) {
-    opacity: 0.7;
-  }
 }
 
 body,
@@ -399,7 +416,6 @@ strong, b {
   word-break: normal;
   overflow-wrap: normal;
   hyphens: none;
-  background-color: #181818;
 
   font:
     15px/1.5 "IBM Plex Sans",
