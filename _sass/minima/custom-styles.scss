@@ -533,6 +533,10 @@ strong, b {
 }
 
 .site-nav #nav-trigger:checked ~ label[for="nav-trigger"] .menu-icon {
+  &::before {
+    content: none;
+  }
+
   .icon-bars {
     display: none;
   }
