@@ -6,6 +6,10 @@ body {
   background: transparent;
 }
 
+.site-header {
+  border-top: 0;
+}
+
 body::before {
   content: "";
   position: fixed;
