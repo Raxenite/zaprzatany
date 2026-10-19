@@ -337,18 +337,21 @@ strong, b {
 }
 
 html[data-privacy-pending] #privacy-panel[hidden] {
-  display: block !important;
+  display: flex !important;
 }
 
 .privacy-panel {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 1000;
   bottom: 1rem;
   left: 1rem;
   right: 1rem;
   max-width: 720px;
-  max-height: 75vh;
-  overflow: auto;
+  max-height: 50vh;
+  max-height: 50dvh;
+  overflow: hidden;
   margin: auto;
   padding: 1.25rem;
   box-sizing: border-box;
@@ -360,6 +363,7 @@ html[data-privacy-pending] #privacy-panel[hidden] {
     sans-serif;
 
   h2 {
+    flex-shrink: 0;
     font-size: 1.25rem;
     padding-right: 3rem;
   }
@@ -442,7 +446,19 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   }
 }
 
+.privacy-content {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .privacy-actions {
+  margin-top: 1rem;
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
