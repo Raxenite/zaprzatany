@@ -25,6 +25,11 @@ figure.highlight {
   border: 0;
 }
 
+pre,
+pre code {
+  font-family: "IBM Plex Mono", monospace;
+}
+
 pre {
   padding: 1rem;
   border: 1px solid #222222;
