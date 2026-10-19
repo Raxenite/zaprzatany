@@ -120,6 +120,13 @@
     }
   });
 
+  const finishPage = () => {
+    document.querySelectorAll('[data-privacy-controls], [data-privacy-settings], [data-video-consent]').forEach((control) => {
+      control.hidden = false;
+    });
+    apply();
+  };
+
   const initialize = () => {
     if (initialized.has(document.body)) return;
     panel = document.getElementById('privacy-panel');
@@ -129,13 +136,11 @@
     if (!panel || !closeButton || !analytics || !youtube) return;
     initialized.add(document.body);
     closeButton.hidden = !choice;
-    document.querySelectorAll('[data-privacy-controls], [data-privacy-settings], [data-video-consent]').forEach((control) => {
-      control.hidden = false;
-    });
     analytics.checked = choice?.analytics === true;
     youtube.checked = choice?.youtube === true;
     panel.hidden = !!choice;
-    apply();
+    document.documentElement.removeAttribute('data-privacy-pending');
+    finishPage();
   };
 
   window.addEventListener('storage', (event) => {
@@ -144,6 +149,7 @@
       location.reload();
     }
   });
+  document.addEventListener('DOMContentLoaded', finishPage, { once: true });
   document.addEventListener('turbo:load', initialize);
   document.addEventListener('turbo:before-cache', () => {
     // Cache neutral UI: never restore a playing iframe or unsaved settings.
