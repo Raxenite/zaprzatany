@@ -131,8 +131,23 @@ strong, b {
       aspect-ratio: auto;
     }
 
+    &:has(.youtube-placeholder[hidden])::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0;
+      height: 0;
+      border-top: 18px solid transparent;
+      border-bottom: 18px solid transparent;
+      border-left: 28px solid #a3a3a3;
+      pointer-events: none;
+    }
+
     > iframe {
       position: absolute;
+      z-index: 1;
       inset: 0;
       width: 100%;
       height: 100%;

@@ -22,6 +22,15 @@
 
   const loadVideo = (container) => {
     if (container.querySelector('iframe')) return;
+    // Warm player assets while the consented iframe document is loading.
+    for (const origin of ['https://www.youtube.com', 'https://i.ytimg.com']) {
+      if (document.head.querySelector(`link[data-youtube-preconnect][href="${origin}"]`)) continue;
+      const connection = document.createElement('link');
+      connection.rel = 'preconnect';
+      connection.href = origin;
+      connection.dataset.youtubePreconnect = '';
+      document.head.append(connection);
+    }
     const frame = document.createElement('iframe');
     frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(container.dataset.videoId)}`;
     frame.title = container.dataset.videoTitle;
