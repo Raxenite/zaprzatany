@@ -38,6 +38,10 @@ THE SOFTWARE.
 
 Blog wykorzystuje lokalnie przechowywane fonty [IBM Plex](https://github.com/IBM/plex), których warianty Latin i Latin Extended zostały scalone w celu ograniczenia liczby pobieranych plików.
 
+IBM Plex Sans Variable pochodzi z oficjalnego pakietu `plex-sans-variable`. Zachowuje zestaw znaków dotychczasowych plików Sans, zakres grubości 400–700 i standardową szerokość liter.
+
+IBM Plex Serif Variable pochodzi z oficjalnego pakietu `plex-serif-variable`. Został ograniczony do zakresu grubości 400–700 i zestawu znaków dotychczasowych plików Serif, z pominięciem nieobecnych w źródle znaków sterujących U+0000 i U+000D. Kursywa pozostaje osobnym plikiem statycznym.
+
 Fonty pozostają własnością IBM Corp. (© 2017) i są udostępniane na licencji SIL Open Font License 1.1.
 
 Pełna licencja: [`assets/fonts/ibm-plex/LICENSE.txt`](assets/fonts/ibm-plex/LICENSE.txt).

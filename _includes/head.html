@@ -14,7 +14,7 @@
     <meta name="robots" content="noindex">
   {%- endif -%}
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
-  {%- assign fonts = 'sans-400-normal,sans-700-normal,mono-400-normal,serif-400-normal,serif-700-normal,serif-400-italic' | split: ',' -%}
+  {%- assign fonts = 'sans-variable-normal,mono-400-normal,serif-variable-normal,serif-400-italic' | split: ',' -%}
   {%- for variant in fonts -%}
     {%- assign font_path = '/assets/fonts/ibm-plex/ibm-plex-' | append: variant | append: '.woff2' -%}
     <link rel="preload" href="{{ font_path | relative_url }}" as="font" type="font/woff2" crossorigin>
