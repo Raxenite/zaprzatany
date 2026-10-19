@@ -12,7 +12,7 @@
         saved.time <= Date.now() && Date.now() - saved.time < lifetime) choice = saved;
   } catch { /* Without storage, consent applies only to this page. */ }
 
-  let panel, closeButton, analytics, youtube;
+  let panel, analytics, youtube;
   const initialized = new WeakSet();
   let analyticsLoaded = false;
   let expiry;
@@ -62,7 +62,6 @@
   };
 
   const openSettings = () => {
-    closeButton.hidden = !choice;
     analytics.checked = choice?.analytics === true;
     youtube.checked = choice?.youtube === true;
     panel.hidden = false;
@@ -94,10 +93,6 @@
       }
     } else if (video) {
       loadVideo(video.closest('[data-video-id]'));
-    } else if (event.target.closest('[data-privacy-close]')) {
-      if (!choice) return;
-      panel.hidden = true;
-      document.querySelector('.site-footer [data-privacy-settings]').focus({ preventScroll: true });
     } else if (button) {
       const action = button.dataset.privacyChoice;
       const previousAnalytics = choice?.analytics;
@@ -130,12 +125,10 @@
   const initialize = () => {
     if (initialized.has(document.body)) return;
     panel = document.getElementById('privacy-panel');
-    closeButton = document.querySelector('[data-privacy-close]');
     analytics = document.getElementById('privacy-analytics');
     youtube = document.getElementById('privacy-youtube');
-    if (!panel || !closeButton || !analytics || !youtube) return;
+    if (!panel || !analytics || !youtube) return;
     initialized.add(document.body);
-    closeButton.hidden = !choice;
     analytics.checked = choice?.analytics === true;
     youtube.checked = choice?.youtube === true;
     panel.hidden = !!choice;
@@ -163,7 +156,7 @@
       youtube.checked = choice?.youtube === true;
     }
     initialized.delete(document.body);
-    panel = closeButton = analytics = youtube = null;
+    panel = analytics = youtube = null;
   });
   // The panel is already parsed; do not wait for deferred modules or DOMContentLoaded.
   initialize();
