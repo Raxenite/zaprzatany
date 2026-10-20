@@ -83,7 +83,13 @@ h1, h2, h3, h4, h5, h6,
   color: #c5c5c5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.post-link,
+.post-list-heading,
+.page-heading,
+.site-title {
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -115,6 +121,27 @@ strong, b {
     letter-spacing: -0.01em
   }
 
+  > p,
+  > img,
+  > .youtube-embed,
+  > blockquote,
+  > pre,
+  > .highlight,
+  > .highlighter-rouge {
+    margin: 0 0 1.5rem;
+  }
+
+  > img,
+  p > img:only-child,
+  p > a:only-child > img:only-child {
+    display: block;
+  }
+
+  .highlighter-rouge > .highlight,
+  .highlight > pre {
+    margin: 0;
+  }
+
   img,
   .youtube-embed {
     box-sizing: border-box;
@@ -130,7 +157,6 @@ strong, b {
     width: 100%;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    margin-bottom: 2rem;
 
     &:has(.youtube-placeholder:not([hidden])) {
       aspect-ratio: auto;
@@ -166,7 +192,6 @@ strong, b {
     background: transparent;
     border: 0;
     padding: 0;
-    margin: 24px 0;
     color: inherit;
     font:
       italic 400 17px/1.95 "IBM Plex Serif",
@@ -265,9 +290,10 @@ strong, b {
 .site-title,
 .site-title:visited {
   color: #dedede;
+  font-weight: 500;
   text-decoration: none;
-  text-transform: none;
-  letter-spacing: normal;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
 
   &:hover {
     color: #fff;
