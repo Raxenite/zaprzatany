@@ -1,5 +1,123 @@
+// Design tokens: edit values here; component geometry stays local.
+:root {
+  // Shared palette entries with distinct semantic uses below.
+  --color-gray1: #ccc;
+  --color-gray2: #a6a6a6;
+  --color-gray3: #a3a3a3;
+  --color-gray4: #999;
+  --color-gray5: #959595;
+  --color-gray6: #888;
+  --color-gray7: #555;
+  --color-gray8: #222;
+
+  --color-background: #181818;
+  --color-background-selected: #333;
+  --color-background-quote: rgba(19, 19, 19, 0.7);
+  --color-background-quote-mobile: rgba(20, 20, 20, 0.7);
+  --color-text: var(--color-gray3);
+  --color-icon-play: var(--color-gray3);
+  --color-heading: #c5c5c5;
+  --color-code: #d0d0d0;
+  --color-code-plain: #bbb;
+  --color-link: #dedede;
+  --color-link-hover: #fff;
+  --color-title-hover: #eee;
+  --color-decoration: var(--color-gray6);
+  --color-decoration-hover: var(--color-gray1);
+  --color-decoration-title: var(--color-gray7);
+  --color-border: #2b2b2b;
+  --color-border-content: var(--color-gray8);
+  --color-border-panel: #242424;
+  --color-border-interactive: var(--color-gray7);
+  --color-border-hover: var(--color-gray2);
+  --color-border-checkbox-hover: var(--color-gray6);
+  --color-focus: var(--color-gray2);
+  --color-focus-checkbox: #aaa;
+  --color-checkmark: var(--color-gray1);
+
+  // Minima defaults that remain visible outside the custom components.
+  --color-text-muted: #858585;
+  --color-text-table: var(--color-gray5);
+  --color-text-quote: var(--color-gray4);
+  --color-link-default: #5691cd;
+  --color-link-visited: #80bbff;
+  --color-link-default-hover: var(--color-gray5);
+  --color-decoration-default-hover: var(--color-gray4);
+  --color-background-code: var(--color-gray8);
+  --color-background-table-even: var(--color-gray8);
+  --color-background-table-heading: #323232;
+  --color-border-table-heading: #3e3e3e;
+  --color-icon: var(--color-gray4);
+
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-serif: "IBM Plex Serif", Georgia, serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  // Inline code keeps Minima's existing fallback stack.
+  --font-code-inline: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+  --border-width: 1px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --shadow-overlay: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+// Minima integration: preserve its defaults and the custom overrides below.
+a { color: var(--color-link-default); }
+a:visited { color: var(--color-link-visited); }
+a:hover {
+  color: var(--color-link-default-hover);
+  text-decoration-color: var(--color-decoration-default-hover);
+}
+
+.post-meta,
+.footer-col-wrapper,
+.social-links { color: var(--color-text-muted); }
+
+blockquote {
+  color: var(--color-text-quote);
+  border-left-color: var(--color-border);
+}
+
+code {
+  font-family: var(--font-code-inline);
+  background-color: var(--color-background-code);
+}
+pre { color: var(--color-code-plain); }
+code.highlighter-rouge,
+figure.highlight td.gutter { border-color: var(--color-border); }
+
+.site-header {
+  background-color: var(--color-background);
+  border-bottom-color: var(--color-border);
+}
+.site-footer { border-top-color: var(--color-border); }
+.post-header { border-bottom-color: var(--color-border); }
+
+// Retain table colors independently of article text and content borders.
+table {
+  color: var(--color-text-table);
+  border-color: var(--color-border);
+}
+table td { border-color: var(--color-border); }
+table th {
+  background-color: var(--color-background-table-heading);
+  border-color: var(--color-border-table-heading);
+}
+table tr:nth-child(even) { background-color: var(--color-background-table-even); }
+
+@media (max-width: 600px) {
+  code { font-family: monospace; }
+
+  .site-nav {
+    background-color: var(--color-background);
+    border-color: var(--color-border);
+  }
+  .site-nav .menu-icon > svg path { fill: var(--color-icon); }
+}
+
+// Base and typography
+
 html {
-  background: #181818;
+  background: var(--color-background);
 }
 
 body {
@@ -10,7 +128,7 @@ body,
 .site-footer .footer-col-wrapper,
 .privacy-panel,
 .youtube-placeholder {
-  color: #a3a3a3;
+  color: var(--color-text);
 }
 
 pre,
@@ -27,12 +145,12 @@ figure.highlight {
 
 pre,
 pre code {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-mono);
 }
 
 pre {
   padding: 1rem;
-  border: 1px solid #222222;
+  border: var(--border-width) solid var(--color-border-content);
 
   code {
     background-color: transparent;
@@ -43,7 +161,7 @@ pre,
 .highlight,
 .youtube-embed,
 .youtube-placeholder {
-  background-color: #181818;
+  background-color: var(--color-background);
 }
 
 .site-header {
@@ -62,16 +180,11 @@ body::before {
 }
 
 body,
-.post-title,
-.post-link,
-.post-list-heading,
-.page-heading,
-.site-title,
 .post-content h1,
 .post-content h2,
 .post-content h3,
 .post-content h4 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: var(--font-sans);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -80,7 +193,7 @@ h1, h2, h3, h4, h5, h6,
 .privacy-panel label strong,
 .youtube-placeholder > p:first-child,
 .youtube-placeholder > p:first-child a {
-  color: #c5c5c5;
+  color: var(--color-heading);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -89,20 +202,19 @@ h1, h2, h3, h4, h5, h6,
 .post-list-heading,
 .page-heading,
 .site-title {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: var(--font-sans);
   font-weight: 400;
 }
 
 strong, b {
-  font-family: "IBM Plex Serif", Georgia, serif;
+  font-family: var(--font-serif);
   font-style: normal;
   font-weight: 700;
 }
 
 .post-meta {
   font:
-    0.8rem "IBM Plex Mono",
-    monospace;
+    0.8rem var(--font-mono);
   letter-spacing: 0.01em;
 }
 
@@ -110,15 +222,13 @@ strong, b {
 
 .post-content {
   font:
-    17px/1.75 "IBM Plex Serif",
-    Georgia,
-    serif;
+    17px/1.75 var(--font-serif);
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
 
   p {
-    letter-spacing: -0.01em
+    letter-spacing: -0.01em;
   }
 
   > p,
@@ -145,7 +255,7 @@ strong, b {
   img,
   .youtube-embed {
     box-sizing: border-box;
-    border: 1px solid #222222;
+    border: var(--border-width) solid var(--color-border-content);
   }
 
   img {
@@ -172,7 +282,7 @@ strong, b {
       height: 0;
       border-top: 18px solid transparent;
       border-bottom: 18px solid transparent;
-      border-left: 28px solid #a3a3a3;
+      border-left: 28px solid var(--color-icon-play);
       pointer-events: none;
     }
 
@@ -194,14 +304,12 @@ strong, b {
     padding: 0;
     color: inherit;
     font:
-      italic 400 17px/1.95 "IBM Plex Serif",
-      Georgia,
-      serif;
+      italic 400 17px/1.95 var(--font-serif);
     font-kerning: normal;
 
     p {
       display: inline;
-      background: rgba(19, 19, 19, 0.7);
+      background: var(--color-background-quote);
       padding: 2px 5px;
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
@@ -217,12 +325,27 @@ strong, b {
 // Links
 
 .pagination {
-  color: #a3a3a3;
+  color: var(--color-text);
 
   li a {
-    background: #181818;
-    border: 1px solid #555;
+    &,
+    &:visited,
+    &:hover {
+      color: var(--color-text);
+    }
+
+    background: var(--color-background);
+    border: var(--border-width) solid var(--color-border-interactive);
     border-radius: 0;
+
+    &:hover {
+      border-color: var(--color-border-hover);
+    }
+
+    &:focus-visible {
+      outline: var(--focus-width) solid var(--color-focus);
+      outline-offset: var(--focus-offset);
+    }
   }
 
   li div.current-page {
@@ -230,27 +353,10 @@ strong, b {
   }
 
   li div.pager-edge {
-    background: #181818;
-    color: #a3a3a3;
-    border: 1px dashed #555;
+    background: var(--color-background);
+    color: var(--color-text);
+    border: var(--border-width) dashed var(--color-border-interactive);
     border-radius: 0;
-  }
-
-  li a {
-    &,
-    &:visited,
-    &:hover {
-      color: #a3a3a3;
-    }
-
-    &:hover {
-      border-color: #a6a6a6;
-    }
-
-    &:focus-visible {
-      outline: 2px solid #a6a6a6;
-      outline-offset: 3px;
-    }
   }
 }
 
@@ -260,43 +366,42 @@ strong, b {
 .site-footer .privacy-links a:visited,
 .site-nav .nav-item,
 .site-nav .nav-item:visited {
-  color: #dedede;
+  color: var(--color-link);
   font-weight: inherit;
   text-decoration: underline;
-  text-decoration-color: #888;
+  text-decoration-color: var(--color-decoration);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 
-
   &:hover {
-    color: #fff;
-    text-decoration-color: #ccc;
+    color: var(--color-link-hover);
+    text-decoration-color: var(--color-decoration-hover);
     text-decoration-thickness: 2px;
   }
 }
 
 .post-list .post-link {
   text-decoration: underline;
-  text-decoration-color: #555;
+  text-decoration-color: var(--color-decoration-title);
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
 
   &:hover {
-    color: #eee;
+    color: var(--color-title-hover);
     text-decoration-color: currentColor;
   }
 }
 
 .site-title,
 .site-title:visited {
-  color: #dedede;
+  color: var(--color-link);
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: -0.04em;
 
   &:hover {
-    color: #fff;
+    color: var(--color-link-hover);
     text-decoration: none;
   }
 }
@@ -304,7 +409,7 @@ strong, b {
 // Footer
 
 .site-footer {
-  background-color: #181818;
+  background-color: var(--color-background);
   .wrapper {
     display: flex;
     align-items: flex-start;
@@ -337,21 +442,21 @@ strong, b {
     display: flex;
     gap: 8px;
     margin: 0;
+  }
 
-    li a {
-      color: #a3a3a3;
-      background: transparent;
-      border-radius: 0;
-      border-color: #555;
+  .social-media-list li a {
+    color: var(--color-text);
+    background: transparent;
+    border-radius: 0;
+    border-color: var(--color-border-interactive);
 
-      &:hover {
-        border-color: #a6a6a6;
-      }
+    &:hover {
+      border-color: var(--color-border-hover);
+    }
 
-      &:focus-visible {
-        outline: 2px solid #a6a6a6;
-        outline-offset: 3px;
-      }
+    &:focus-visible {
+      outline: var(--focus-width) solid var(--color-focus);
+      outline-offset: var(--focus-offset);
     }
   }
 }
@@ -381,12 +486,11 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   margin: auto;
   padding: 1.25rem;
   box-sizing: border-box;
-  background: #181818;
-  border: 1px solid #242424;
-  
+  background: var(--color-background);
+  border: var(--border-width) solid var(--color-border-panel);
+
   font:
-    15px/1.5 "IBM Plex Sans",
-    sans-serif;
+    15px/1.5 var(--font-sans);
 
   h2 {
     flex-shrink: 0;
@@ -394,7 +498,7 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   }
 
   label strong {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: var(--font-sans);
     font-style: normal;
     font-weight: 700;
   }
@@ -419,7 +523,7 @@ html[data-privacy-pending] #privacy-panel[hidden] {
     width: 24px;
     height: 24px;
     margin: 0;
-    border: 1px solid #555;
+    border: var(--border-width) solid var(--color-border-interactive);
     border-radius: 0;
     background: transparent;
     cursor: pointer;
@@ -428,14 +532,14 @@ html[data-privacy-pending] #privacy-panel[hidden] {
       content: "";
       width: 6px;
       height: 11px;
-      border: solid #ccc;
+      border: solid var(--color-checkmark);
       border-width: 0 2px 2px 0;
       transform: translateY(-2px) rotate(45deg) scale(0);
     }
 
     &:checked {
-      background: #333;
-      border-color: #555;
+      background: var(--color-background-selected);
+      border-color: var(--color-border-interactive);
 
       &::before {
         transform: translateY(-2px) rotate(45deg) scale(1);
@@ -443,15 +547,14 @@ html[data-privacy-pending] #privacy-panel[hidden] {
     }
 
     &:hover {
-      border-color: #888;
+      border-color: var(--color-border-checkbox-hover);
     }
 
     &:focus-visible {
-      outline: 2px solid #aaa;
-      outline-offset: 3px;
+      outline: var(--focus-width) solid var(--color-focus-checkbox);
+      outline-offset: var(--focus-offset);
     }
   }
-
 
 }
 
@@ -488,7 +591,7 @@ html[data-privacy-pending] #privacy-panel[hidden] {
 .privacy-panel button,
 .youtube-placeholder button {
   padding: 10px 12px;
-  border: 1px solid #555;
+  border: var(--border-width) solid var(--color-border-interactive);
   border-radius: 0;
   background: transparent;
   color: inherit;
@@ -496,17 +599,13 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   cursor: pointer;
 
   &:hover {
-    border-color: #a6a6a6;
+    border-color: var(--color-border-hover);
   }
 
   &:focus-visible {
-    outline: 2px solid #a6a6a6;
-    outline-offset: 3px;
+    outline: var(--focus-width) solid var(--color-focus);
+    outline-offset: var(--focus-offset);
   }
-}
-
-.privacy-panel button {
-  color: inherit;
 }
 
 // YouTube placeholder
@@ -520,8 +619,7 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   hyphens: none;
 
   font:
-    15px/1.5 "IBM Plex Sans",
-    sans-serif;
+    15px/1.5 var(--font-sans);
 
   > p:first-child {
     font-size: 18px;
@@ -597,6 +695,15 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   }
 }
 
+// Code
+
+.highlight,
+.highlight * {
+  color: var(--color-code) !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
 // Mobile
 
 @media (max-width: 600px) {
@@ -611,22 +718,15 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   }
 
   .post-content blockquote p {
-    background: rgba(20, 20, 20, 0.7);
+    background: var(--color-background-quote-mobile);
     color: inherit;
   }
 }
 
 @media (min-width: 601px) {
   .privacy-panel, .youtube-placeholder {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    box-shadow: var(--shadow-overlay);
   }
 }
 
 
-
-.highlight,
-.highlight * {
-  color: #d0d0d0 !important;
-  font-weight: normal !important;
-  font-style: normal !important;
-}
