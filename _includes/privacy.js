@@ -49,7 +49,6 @@
       tracker.dataset.beforeSend = 'zaprzatanyBeforeSend';
       tracker.dataset.excludeSearch = 'true';
       tracker.dataset.excludeHash = 'true';
-      tracker.dataset.doNotTrack = 'true';
       document.head.append(tracker);
     }
     if (choice?.youtube) document.querySelectorAll('[data-video-id]').forEach(loadVideo);
