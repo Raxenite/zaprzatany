@@ -111,7 +111,6 @@ table tr:nth-child(even) { background-color: var(--color-background-table-even);
     background-color: var(--color-background);
     border-color: var(--color-border);
   }
-  .site-nav .menu-icon > svg path { fill: var(--color-icon); }
 }
 
 // Base and typography
@@ -654,44 +653,38 @@ html[data-privacy-pending] #privacy-panel[hidden] {
   }
 }
 
-// Mobile navigation
+// Navigation
 
-.site-nav #nav-trigger ~ label[for="nav-trigger"] .menu-icon {
-  &::before {
-    content: none;
-  }
+.site-header > .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1rem;
 
-  svg {
-    height: 1em;
-    vertical-align: -0.125em;
-    position: relative;
-    top: -0.5em;
-  }
-
-  .icon-bars {
-    width: 0.875em;
-    font-size: 1.25em;
-  }
-
-  .icon-xmark {
-    display: none;
-    width: 0.75em;
-    font-size: 1.5em;
-    top: calc(-0.5em - 2px);
-  }
+  &::after { display: none; }
 }
 
-.site-nav #nav-trigger:checked ~ label[for="nav-trigger"] .menu-icon {
-  &::before {
-    content: none;
+.site-header .site-title {
+  padding-right: 0;
+}
+
+.site-header .site-nav {
+  position: static;
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 15px;
   }
 
-  .icon-bars {
-    display: none;
-  }
-
-  .icon-xmark {
-    display: inline;
+  .nav-item,
+  .nav-item:not(:last-child) {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
   }
 }
 
