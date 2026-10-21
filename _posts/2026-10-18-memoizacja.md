@@ -60,7 +60,7 @@ class Me {
 }
 ```
 
-Jeszcze Lepiej
+Jeszcze lepiej
 
 ```ts
 class Me {

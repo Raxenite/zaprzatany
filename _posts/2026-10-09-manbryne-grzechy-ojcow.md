@@ -75,6 +75,6 @@ _Per aspera ad astra_, nie wiem, kiepski mam norweski.
 
 ## Post-mortem
 
-Jak oferta wygląda fhuj dobrze, to się kurwa dwa razy zastanów, na co przymykasz oko, w razie jakby drugie było jednocześnie kolonizowane przez frozen vomit fuck stick, ten od [Fuckin' Your Daughter With A Frozen Vomit Fuck Stick](https://www.youtube.com/watch?v=s-ItOEzvJEY&list=OLAK5uy_kbLyvlLXPaLEYKWY7YOMErSnh1_E9MfKc), co ci curkę ruhał.  
+Jak oferta wygląda fhuj dobrze, to się kurwa dwa razy zastanów, na co przymykasz oko, w razie jakby było kolonizowane przez frozen vomit fuck stick, ten od [Fuckin' Your Daughter With A Frozen Vomit Fuck Stick](https://www.youtube.com/watch?v=s-ItOEzvJEY&list=OLAK5uy_kbLyvlLXPaLEYKWY7YOMErSnh1_E9MfKc), co ci curkę ruhał.  
 
 c.n.d.
