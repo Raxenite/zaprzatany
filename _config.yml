@@ -69,6 +69,7 @@ plugins:
   - jekyll-paginate
 
 exclude:
+  - vendor
   - THIRD_PARTY_LICENSES.md
   - LICENSE
   - README.md

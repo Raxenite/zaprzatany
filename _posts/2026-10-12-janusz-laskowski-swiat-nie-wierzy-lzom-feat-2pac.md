@@ -8,7 +8,7 @@ Chciałbym być kobietą. No homo. Branża ochroniarska, kobieta typo escort. Ni
 
 Śmierć to dopiero początek - nie powiedział nigdy nikt; nie zbierając się do robo u korpo-prywaciarza, that is. Poniedziałek. Dzień jasny. Słoneczny. Humor nie-jasny, humor popsuty od wczoraj wieczur.
 
-<img src="{{ site.baseurl }}/assets/images/ruhanie.webp" alt="Mężczyzna pokazuje palcem na napis ruhanie na ścianie." loading="lazy" decoding="async" style="display: block; width: 300px; height: auto;" />
+{% include image.html src="ruhanie.webp" alt="Mężczyzna pokazuje palcem na napis ruhanie na ścianie." %}
 
 Łakaczyki, głupcze.
 
