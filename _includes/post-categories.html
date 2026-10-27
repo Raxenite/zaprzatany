@@ -1,8 +1,8 @@
 {%- for category in include.categories -%}
   {%- assign category_path = category | slugify: 'default' | prepend: '/kategorie/' | append: '/' -%}
-  {%- unless include.separate_line -%}
+  {%- if forloop.first and include.separate_line != true -%}
     <span aria-hidden="true"> · </span>
-  {%- endunless -%}
-  {%- if include.separate_line and forloop.first == false -%}, {% endif -%}
+  {%- endif -%}
+  {%- unless forloop.first -%}, {% endunless -%}
   <a href="{{ category_path | relative_url }}">{{ category | escape }}</a>
 {%- endfor -%}
