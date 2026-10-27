@@ -379,7 +379,28 @@ strong, b {
   }
 }
 
-.post-list .post-link {
+.post-meta .force-inline::before {
+  content: "·";
+}
+
+.post-categories {
+  margin-top: 2px;
+}
+
+.category-page .page-heading {
+  margin-bottom: 30px;
+}
+
+.post-categories a {
+  display: inline-block;
+  margin-block: 1px;
+  padding-block: 1px;
+}
+
+.post-list .post-link,
+.post-meta a,
+.post-meta a:visited {
+  color: var(--color-heading);
   text-decoration: underline;
   text-decoration-color: var(--color-decoration-title);
   text-decoration-thickness: 1px;

@@ -2,6 +2,9 @@
 layout: post
 title: "Infernal War - Regime of Terror"
 date: 2026-10-15T22:35:04+0200
+categories:
+  - Case Study
+  - Bastardization
 ---
 
 Są takie koncerty, które na długo zapadają w pamięć

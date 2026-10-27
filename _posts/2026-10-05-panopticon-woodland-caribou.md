@@ -2,6 +2,9 @@
 layout: post
 title: "Panopticon - Woodland Caribou"
 date: 2026-10-05T09:52:12+0200
+categories:
+  - Case Study
+  - Bastardization
 ---
 
 Mieliście kiedyś tak, że po diagnozie dysleksji przeżyliście żal po Stravie i nic już nie będzie jak wrzesień?

@@ -2,6 +2,9 @@
 layout: post
 title:  "Kriegsmaschine - Annihilate Prime Factor"
 date:   2026-10-04 15:38:14 +0200
+categories:
+  - Case Study
+  - Bastardization
 ---
 
 A miał ktoś akcję np. idzie 3 typów i na ciebie?

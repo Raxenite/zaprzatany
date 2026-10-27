@@ -2,6 +2,9 @@
 layout: post
 title: "Mānbryne - Grzechy ojców"
 date: 2026-10-09T13:08:32+0200
+categories:
+  - Case Study
+  - Bastardization
 ---
 
 Jest sobie taki wafel, _Grzesiek_. I on jest bystry niczym wafel, no nie. I może nawet bystry niczym większość księgowych, nie oceniam. Przyszła kryska na Matyska, huja w ogień znad ogniska.

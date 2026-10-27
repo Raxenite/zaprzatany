@@ -2,6 +2,9 @@
 layout: post
 title: "Black Sun Empire - Arrakis"
 date: 2026-10-26T08:58:25+0100
+categories:
+  - Case Study
+  - Bastardization
 ---
 
 ZIP ZOP ZOOBITY BOP  

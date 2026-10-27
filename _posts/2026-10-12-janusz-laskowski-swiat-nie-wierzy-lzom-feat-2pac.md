@@ -2,6 +2,9 @@
 layout: post
 title: "Janusz Laskowski - Świat nie wierzy łzom feat. 2Pac"
 date: 2026-10-12T13:02:17+0200
+categories:
+  - Case Study
+  - Bastardization
 ---
 
 Chciałbym być kobietą. No homo. Branża ochroniarska, kobieta typo escort. Niestety, grałem za dużo w CS-a, żeby nie wiedzieć, jak kończą eskorty.

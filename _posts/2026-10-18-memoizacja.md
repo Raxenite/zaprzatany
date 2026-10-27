@@ -2,6 +2,8 @@
 layout: post
 title: "Memoizacja"
 date: 2026-10-18T18:46:39+0200
+categories:
+  - Case Study
 ---
 
 Może i jebnął, ale chłop dobry. Pora na CS-a
