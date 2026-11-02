@@ -323,6 +323,21 @@ strong, b {
 
 // Links
 
+.page-content:has(.home > .pager) {
+  display: flex;
+
+  > .wrapper,
+  .home {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .pager {
+    margin-top: auto;
+  }
+}
+
 .pagination {
   color: var(--color-text);
 
