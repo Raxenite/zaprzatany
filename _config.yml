@@ -37,7 +37,7 @@ minima:
     - about.md
   
 paginate: 10
-paginate_path: "/page/:num/"
+paginate_path: "/:num/"
 
 defaults:
   - scope:
