@@ -79,6 +79,6 @@ Podstawy księgowości moralnej dla bystrzaków:
 - moja tożsamość to nie przedmiot oceny, tylko kryterium
 - płać odsetki za mój dług
 - można w chuju mieć i nieźle żyć
-- racjonalne żywienie, 5 posiłków dziennie
+- [racjonalne żywienie, 5 posiłków dziennie](https://www.youtube.com/watch?v=jyjuUHNwWD4)
 - Krzysiu!
-- jem zupę
+- [jem zupę](https://www.youtube.com/watch?v=og3joJPdD34)
