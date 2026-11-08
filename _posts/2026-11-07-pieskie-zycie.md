@@ -28,7 +28,6 @@ Szukam w telu, ale tylko wiedza okultystyczna aka czarno to widzę.
 Do 12:00 będę magiem potężnym niczym Aleister Crowley...
 
 > Mieszka pan z kolegą, pan dryngnie do niego.  
-> W sumie...  
 
 ...jak już regen many wleci.
 
@@ -43,7 +42,6 @@ W moich snach wciąż Warszawa.
 
 > Mandat przyjmuje?  
 > Tak  
-> Golden  
 
 W międzyczasie poznałem jej kolegę. Żaden śmieszek, gadka zmarła.
 
