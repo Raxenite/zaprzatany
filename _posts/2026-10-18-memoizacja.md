@@ -10,8 +10,6 @@ Może i jebnął, ale chłop dobry. Pora na CS-a
 
 ## Case Study
 
-No bo kurwa.
-
 ```ts
 class Me {
   good = true;
