@@ -6,7 +6,7 @@ categories:
     - Case Study
 ---
 
-Tak, dostałem mandat. Tak, są punkty, Tak, expa na 3 levele, would recommend.
+Tak, dostałem mandat. Tak, są punkty. Tak, expa na 3 levele, would recommend.
 
 
 ## Case Study 
